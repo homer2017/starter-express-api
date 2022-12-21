@@ -2,7 +2,7 @@
   "name": "simple-node-app-heroku",
   "version": "1.0.1",
   "description": "A simple demo node js app for Heroku deployment tutorial.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
