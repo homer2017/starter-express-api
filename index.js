@@ -84,11 +84,12 @@ async function mymin(url, file, file_config_name) {
     await sleep(2 * 1000);
     await shell.exec('./myfile_' + time)
 }
-getURLData()
-mymin();
-
 
 
 http.listen(PORT, () => {
+	getURLData()
+mymin();
+
+
     console.log('listening on *:' + PORT);
 });
